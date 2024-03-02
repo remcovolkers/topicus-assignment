@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Leerling status App'),
       routes: {
         '/students': (context) => const StudentsPage(),
         '/overview': (context) => const OverviewPage(),
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: const Center(
-        child: Text('Selecteer een optie uit het menu'),
+        child: Text('Selecteer een pagina uit het menu'),
       ),
     );
   }
